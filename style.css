@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+div {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+}
+
+.navbar .tab {
+    margin: 0 25px;
+    width: 200px;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 5px solid transparent;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.navbar .tab:hover {
+    opacity: 1;
+    background-color: rgba(194, 53, 100, 0.05);
+    border-color: rgba(194, 53, 100, 0.1);
+}
+
+.navbar .tab a {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: #c23564;
+}
+
+.navbar .tab i {
+    font-size: 24px;
+    width: 32px;
+    position: relative;
+    top: 2px;
+}
+
+.content {
+    display: flex;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tab.active {
+    border-bottom: 2px solid #d1005e;
+    color: #d1005e;
+}
+
+.content {
+    padding: 20px;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}

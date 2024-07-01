@@ -1,0 +1,12 @@
+{
+    "translation": {
+        "react_title": "React",
+        "react_description": "React giúp dễ dàng tạo ra các giao diện người dùng tương tác. Thiết kế các chế độ hiển thị đơn giản cho mỗi trạng thái trong ứng dụng của bạn, và React sẽ cập nhật và hiển thị chính xác các thành phần khi dữ liệu của bạn thay đổi.",
+        "angular_title": "Angular",
+        "angular_description": "Angular là một khung thiết kế ứng dụng và nền tảng phát triển để tạo ra các ứng dụng trang đơn hiệu quả và tinh vi.",
+        "ember_title": "Ember",
+        "ember_description": "Ember.js là một khung JavaScript sản xuất, đã được kiểm chứng cho việc xây dựng các ứng dụng web hiện đại. Nó bao gồm tất cả những gì bạn cần để xây dựng các giao diện người dùng phong phú hoạt động trên bất kỳ thiết bị nào.",
+        "vue_title": "Vue.js",
+        "vue_description": "Vue (phát âm như view) là một khung làm việc tiến bộ để xây dựng các giao diện người dùng. Không giống như các khung làm việc nguyên khối khác, Vue được thiết kế từ đầu để có thể từng bước chấp nhận."
+    }
+}

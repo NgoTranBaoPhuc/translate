@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <script src="https://unpkg.com/i18next@21.8.5/dist/umd/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend@1.4.2/i18nextHttpBackend.min.js"></script>
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div>
+        <div class="navbar">
+            <div class="tab active"><a href=""><i class="fa-brands fa-react"></i> React</a></div>
+            <div class="tab"><a href=""><i class="fa-brands fa-angular"></i> Angular</a></div>
+            <div class="tab"><a href=""><i class="fa-solid fa-circle-plus"></i> Ember</a></div>
+            <div class="tab"><a href=""><i class="fa-brands fa-vuejs"></i> Vue.js </a></div>
+        </div>
+
+        <div class="content">
+            <div class="tab-content active">
+                <h3 data-i18n="translation.react_title">React</h3>
+                <p data-i18n="translation.react_description">React makes it painless to create interactive UIs. Design
+                    simple views
+                    for each state in your application, and React will efficiently update and render just the right
+                    components when your data changes.</p>
+            </div>
+            <div class="tab-content">
+                <h3 data-i18n="translation.angular_title">Angular</h3>
+                <p data-i18n="translation.angular_description">Angular is an application design framework and
+                    development platform
+                    for creating efficient and sophisticated single-page apps.</p>
+            </div>
+            <div class="tab-content">
+                <h3 data-i18n="translation.ember_title">Ember</h3>
+                <p data-i18n="translation.ember_description">Ember.js is a productive, battle-tested JavaScript
+                    framework for
+                    building modern web applications. It includes everything you need to build rich UIs that work on any
+                    device.</p>
+            </div>
+            <div class="tab-content">
+                <h3 data-i18n="translation.vue_title">Vue.js</h3>
+                <p data-i18n="translation.vue_description">Vue (pronounced /vjuː/, like view) is a progressive framework
+                    for
+                    building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to
+                    be incrementally adoptable.</p>
+            </div>
+        </div>
+
+        <div class="language-switcher">
+            <button id="en-button">English</button>
+            <button id="vi-button">Vietnamese</button>
+        </div>
+    </div>
+</body>
+
+</html>
